@@ -1,0 +1,66 @@
+body {
+    margin: 0 50px;
+    background: #1F2937;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 200;
+    margin-top: 0;
+}
+
+#green-title {
+    color: #4ADF86;
+}
+
+button {
+    width: 200px;
+    background-color: #10B981;
+    color: white;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 5px;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #0c875e;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #2F3E53;
+  margin: 2rem 0; /* o el margen que desees */
+}
+
+#password-container {
+    display: flex;
+    height: 39px;
+}
+.password {
+    width: 200px;
+    background-color: #273549;
+    padding: 10px 16px;
+    border-radius: 3px;
+    color: #4fe385;
+    text-align: center;
+    margin: 0 30px 0 0px;
+}
+
+.password:hover {
+    background-color: #3a4f6c;
+}
